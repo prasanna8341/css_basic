@@ -1,0 +1,27 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+.heading {
+    color: #00698f;
+    border-bottom: 2px solid #00698f;
+}
+
+.text {
+    color: #666;
+    font-size: 18px;
+}
+
+#paragraph {
+    color: #008000; /* ID selector */
+}
+
+.container .text {
+    color: #800080; /* Class selector with descendant */
+}
+
+.container > .text {
+    color: #008080; /* Class selector with child */
+}
+
